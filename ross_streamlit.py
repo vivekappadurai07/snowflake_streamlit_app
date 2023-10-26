@@ -61,12 +61,12 @@ def start_job1(job_name):
 
 
 st.sidebar.slider("test")
-with st.form(key="a"):
+'''with st.form(key="a"):
    col1, col2 = st.columns([0.65, 0.35])
    with col1:
        st.title("Create Pipeline :clap:   ")
    with col2:
-       st.image('/Users/wilsonshamim/Desktop/PycharmProjects/pythonProject/PAF/Streamlit/logo.png', width=240)
+       st.image('/Users/wilsonshamim/Desktop/PycharmProjects/pythonProject/PAF/Streamlit/logo.png', width=240)'''
 
    pipeline_name = st.text_input(label="Pipeline name:")
    commit_msg = st.text_input(label="Commit Message:")
@@ -95,13 +95,13 @@ with st.form(key="a"):
        st.write(result)
 
 
-with st.form(key="b"):
+'''with st.form(key="b"):
 
    col1, col2 = st.columns([0.65, 0.35])
    with col1:
        st.title("Start Job :balloon:   ")
    with col2:
-       st.image('/Users/wilsonshamim/Desktop/PycharmProjects/pythonProject/PAF/Streamlit/logo.png', width=240)
+       st.image('/Users/wilsonshamim/Desktop/PycharmProjects/pythonProject/PAF/Streamlit/logo.png', width=240)'''
 
    job_lists = st.selectbox(
        'select job?',
